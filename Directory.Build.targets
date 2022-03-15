@@ -26,7 +26,7 @@
     <SentryNativeRoot>$(RepoRoot)modules/sentry-native/</SentryNativeRoot>
     <!-- TODO: Do we need: x64, x86, arm64? -->
     <SentryWindowsArtifactsDestination>$(SentryArtifactsDestination)/Windows/Sentry/</SentryWindowsArtifactsDestination>
-    <TestDsn>http://publickey@localhost:8000/12345</TestDsn>
+    <TestDsn>$(TEST_DSN)</TestDsn>
   </PropertyGroup>
 
   <!-- Use the Unity Editor version set in the sample project of the repo -->
